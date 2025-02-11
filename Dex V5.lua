@@ -1,12 +1,7 @@
---[[
-	DEX Main Script
-	
-	Created by: Moon and Courtney
-	
-	RASPBERRY PI IS A SKIDDY SKID AF
---]]
 
--- Metas
+	
+
+
 local Services = setmetatable({},{
 	__index = function(self, ind)
 		if ypcall(function()game:GetService(ind)end) then
